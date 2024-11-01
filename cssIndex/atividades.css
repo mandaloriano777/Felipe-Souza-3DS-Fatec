@@ -1,0 +1,29 @@
+    .atividades {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+  }
+  
+  .card-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 48px;
+  }
+  
+  .card-atividades {
+    position: relative;
+    display: inline;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .descricaoAtividade{
+    max-width: 1200px;
+    font-size: 24px;
+  }
+  

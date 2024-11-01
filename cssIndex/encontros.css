@@ -1,0 +1,48 @@
+.encontros {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+}
+
+.card-container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.card-encontros {
+  position: relative;
+  display: inline;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.imagem{
+  border-radius: 10px; 
+  width: 350px;
+  height: 250px;
+  image-rendering: auto;
+}
+
+.imagemAtividades{
+  border-radius: 10px; 
+
+}
+
+.imagemPersonalidade{
+  border-radius: 20px; 
+  width: 600px;
+  height: 540px;
+}
+
+
+.descricaoEncontro{
+  max-width: 350px;
+  text-align: justify;
+  justify-content: justify;
+}

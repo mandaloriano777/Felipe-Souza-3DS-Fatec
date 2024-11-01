@@ -1,0 +1,57 @@
+.home {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(31, 29, 33);
+  background: linear-gradient(230deg, rgba(82,17,114,1) 0%, rgba(57,56,58,1) 100%);
+  background-size: cover;
+  box-shadow: inset 0px -40px 40px #000;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  max-width: 1200px;
+}
+
+.profile__foto__imagem {
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+  margin-right: 200px; /* Adiciona espaçamento à direita da imagem */
+}
+
+.profile__text {
+  font-size: 1.5rem;
+}
+
+.profile__name {
+  font-size: 4rem;
+  color: #0866FF;
+}
+
+
+.home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imgProjeto/luxa.org-opacity-changed-fundoTecnologia.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0px -40px 40px #000;
+
+}
+
+.profile__text {
+  font-size: 1.5rem;
+  ;
+}
+
+.profile__name {
+  font-size: 4rem;
+  color: #0866FF;
+}
